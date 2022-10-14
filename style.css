@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+
+    /* width: 30%;
+    height: 300px; */
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#container img{
+    width:30%;
+    height: 300px;
+    padding: 5px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+  
+}
+nav{
+    font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid lightcoral;
+    width: 30%;
+    padding:20px 0;
+    margin-bottom: 10px;
+}
